@@ -1,16 +1,27 @@
-# Scale institutional knowledge using Copilot Spaces
+# OctoAcme Project Management Docs
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+This folder contains OctoAcme's project management process documents and a short summary of our approach. Use this README as the single entry point to discover, reference, and maintain the project's process artifacts.
 
-Hey ashley-ow!
+## Summary
+OctoAcme follows an iterative, customer-first project management approach with clear roles, lightweight artifacts, and a predictable delivery rhythm. Key stages include:
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+- Initiation: capture the problem, stakeholders, and success metrics in a Project One‑pager to decide go/no‑go for planning.
+- Planning: create a prioritized backlog, estimate scope, define the Definition of Done, map dependencies, and produce a release timeline.
+- Execution & Tracking: deliver in small shippable increments using a project board (Backlog → Ready → In Progress → In Review → QA → Done), follow PR conventions (small PRs, issue links, CI before review), and run regular team rhythms (daily standups, weekly delivery syncs, demos).
+- Release & Deployment: meet pre‑release checks (CI, security scans, release notes), run staging smoke tests, use automated deployment pipelines where possible, and maintain rollback/mitigation plans.
+- Risks & Communication: maintain a risk register, provide regular stakeholder updates (weekly/milestone-based), and follow defined escalation paths for blockers and incidents.
+- Retrospectives & Continuous Improvement: run timeboxed retrospectives to capture action items, track improvements in the backlog, and measure impact over time.
 
-Remember, it's self-paced so feel free to take a break! ☕️
+## Docs
+- [Project Management Overview](./octoacme-project-management-overview.md)
+- [Project Initiation Guide](./octoacme-project-initiation.md)
+- [Project Planning](./octoacme-project-planning.md)
+- [Execution & Tracking](./octoacme-execution-and-tracking.md)
+- [Release & Deployment](./octoacme-release-and-deployment.md)
+- [Risks & Communication](./octoacme-risks-and-communication.md)
+- [Retrospectives & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
+- [Roles & Personas](./octoacme-roles-and-personas.md)
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/ashley-ow/skills-scale-institutional-knowledge-using-copilot-spaces/issues/1)
-
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+## How to use
+- Link to this README from project READMEs and onboarding materials to improve discoverability.
+- Keep these docs current; use the repository issue template "Add Content to Project Management Process Docs" to propose changes and updates.
